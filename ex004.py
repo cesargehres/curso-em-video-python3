@@ -1,0 +1,8 @@
+n = input('digite algo:')
+print('{} pertence a qual classe? {}'.format(n, type(n)))
+print('{} é alfabético? {}'.format (n, n.isalpha()))
+print('{} é númerico? {}'.format(n, n.isnumeric()))
+print('{} é alfanumérico? {}'.format(n, n.isalnum()))
+print('{} é dígito? {}'.format(n, n.isdigit()))
+print('{} é printable? {}'.format(n, n.isprintable()))
+print('{} é espaço? {}'.format(n, n.isspace()))
